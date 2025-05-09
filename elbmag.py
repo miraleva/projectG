@@ -1,9 +1,9 @@
 import random
 
-# Semboller
+
 symbols = ["🍒", "💎", "7️⃣", "🍋", "🔔"]
 
-# Başlangıç puanı
+
 score = 5000
 
 print("🎰 Slot Machine'e Hoş Geldin!")
@@ -22,15 +22,15 @@ while score >= 5:
 
     score -= 400
 
-    # 3 sembol seç
+    
     result = [random.choice(symbols) for _ in range(3)]
     
-    # Sonuçları göster
+    
     print("------------------")
     print(f"| {result[0]} | {result[1]} | {result[2]} |")
     print("------------------")
 
-    # Kazanma durumu kontrolü
+   
     if result[0] == result[1] == result[2]:
         print("🎉 Tebrikler! 3 sembol aynı! +2000 puan")
         score += 2000
