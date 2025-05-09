@@ -9,7 +9,7 @@ score = 5000
 print("🎰 Slot Machine'e Hoş Geldin!")
 print("Kurallar:")
 print("- Başlangıç puanın: 5000")
-print("- Her spin -5 puan")
+print("- Her spin -400 puan")
 print("- 3 aynı sembol gelirse +2000 puan")
 print("- Çıkmak için 'q' yaz, devam etmek için Enter'a bas")
 
