@@ -32,12 +32,12 @@ while score >= 5:
 
     # Kazanma durumu kontrolü
     if result[0] == result[1] == result[2]:
-        print("🎉 Tebrikler! 3 sembol aynı! +20 puan")
+        print("🎉 Tebrikler! 3 sembol aynı! +2000 puan")
         score += 2000
     else:
         print("😢 Kaybettin! -400 puan")
 
-    print(f"🔢 Güncel puanın: {score}")
+    print(f"Güncel puanın: {score}")
 
 if score < 5:
     print("\n💀 Puanın bitti. Oyun sona erdi.")
