@@ -35,7 +35,7 @@ while score >= 5:
         print("🎉 Tebrikler! 3 sembol aynı! +20 puan")
         score += 2000
     else:
-        print("😢 Kaybettin! -5 puan")
+        print("😢 Kaybettin! -400 puan")
 
     print(f"🔢 Güncel puanın: {score}")
 
