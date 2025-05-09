@@ -8,9 +8,9 @@ score = 5000
 
 print("🎰 Slot Machine'e Hoş Geldin!")
 print("Kurallar:")
-print("- Başlangıç puanın: 30")
+print("- Başlangıç puanın: 5000")
 print("- Her spin -5 puan")
-print("- 3 aynı sembol gelirse +20 puan")
+print("- 3 aynı sembol gelirse +2000 puan")
 print("- Çıkmak için 'q' yaz, devam etmek için Enter'a bas")
 
 while score >= 5:
@@ -20,7 +20,7 @@ while score >= 5:
         print(f"👋 Oyundan çıktın. Son puanın: {score}")
         break
 
-    score -= 5
+    score -= 400
 
     # 3 sembol seç
     result = [random.choice(symbols) for _ in range(3)]
